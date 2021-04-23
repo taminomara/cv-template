@@ -1,0 +1,69 @@
+\documentclass{resume}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage{hyperref}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\hypersetup{colorlinks=true, urlcolor=cyan}
+
+\hyphenpenalty=1
+
+\name{Jane Doe}
+
+\address{
+    (xe/xem or they/them)
+}
+\address{
+    \href{mailto:jane@example.com}{jane@example.com}
+    \\
+    \url{https://github.com/example}
+}
+
+\begin{document}
+    Senior Python developer who loves writing good software.
+
+    Located in Vancouver, Canada, open to remote positions.
+
+    \begin{rSection}{Skills}
+        \begin{rSubsection}{}{}{}{}
+            \item
+                Python, Go, C++.
+            \item
+                Developing good software, not developing bad software.
+        \end{rSubsection}
+        \begin{rSubsection}{}{}{}{}
+            \item
+                Working in a team.
+            \item
+                Proactively driving project forward.
+        \end{rSubsection}
+    \end{rSection}
+
+    \begin{rSection}{Experience}
+        \begin{rSubsection}{Good Software LLC}{January 2020~--~February 2022}{Senior software engineer}{Remote}
+            \item
+                Led development of some C++ and Go projects for Sketchy Client LLC\@.
+            \item
+                Worked with clients and other teams to ensure the software was actually good.
+        \end{rSubsection}
+        \begin{rSubsection}{Not So Good Software LLC}{2016~--~2019}{Software engineer}{Vancouver, Canada}
+            \item
+                Designed, implemented and tested some good software using Python.
+            \item
+                Was responsible for project infrastructure, i.e., CI and stuff.
+        \end{rSubsection}
+    \end{rSection}
+
+    \begin{rSection}{Education}
+        \begin{rSubsection}{Bachelor of Computer Science}{2012~--~2016}{University of British Columbia}{Vancouver, Canada}
+            Major in Distributed Computing
+        \end{rSubsection}
+    \end{rSection}
+
+\end{document}
